@@ -1,4 +1,4 @@
-    # while 7 /////////////////////
+    # while 9 /////////////////////
 
 
 
@@ -9,15 +9,15 @@ s=0
 if a<b:
      i=a
      while i<=b:
-          s+=1
+          s+=i
           i+=1
      print(s,end=' ')
 elif a>b:
      i=b
      while i<=a:
-          s+=1
+          s+=i
           i+=1
-     print(s,end=' ')
+     print(s,end=' ')   
 
 
    
