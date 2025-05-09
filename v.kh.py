@@ -1,4 +1,4 @@
-    # for 9 /////////////////////
+    # for 7 /////////////////////
 
 
 
@@ -8,11 +8,11 @@ b=int(input())
 k=0
 if a<b:
     for i in range(a,b+1):
-        k+=i
+        k+=1
     print(k)
 elif a>b:
     for i in range(b,a+1):
-        k+=i
+        k+=1
     print(k)
 
 
