@@ -1,19 +1,20 @@
-    # for 7 /////////////////////
+    # while 8 /////////////////////
 
 
 
 
 a=int(input())
-b=int(input())
 k=0
-if a<b:
-    for i in range(a,b+1):
+n=1
+while n<=a:
+    r=0
+    i=n
+    while i>0:
+        r=r*10+i%10
+        i//=10
+    if n==r :
         k+=1
-    print(k)
-elif a>b:
-    for i in range(b,a+1):
-        k+=1
-    print(k)
-
+    n+=1
+print(k)
 
    
