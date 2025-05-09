@@ -1,23 +1,14 @@
-    # while 9 /////////////////////
+    # for 2 /////////////////////
 
 
 
 
-a=int(input())
-b=int(input())
-s=0
-if a<b:
-     i=a
-     while i<=b:
-          s+=i
-          i+=1
-     print(s,end=' ')
-elif a>b:
-     i=b
-     while i<=a:
-          s+=i
-          i+=1
-     print(s,end=' ')   
+n=int(input())
+for i in range(1,n+1):
+    if n%i==0:
+        print(i,end=" ")
+
+
 
 
    
