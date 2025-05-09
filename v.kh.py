@@ -1,15 +1,19 @@
-    # for 4 /////////////////////
+    # for 7 /////////////////////
 
 
 
 
-n=int(input())
-for i in range(1,n+1):
-    k=i*i
-    if k<=n:
-        print(k,end=' ')       
-
-
+a=int(input())
+b=int(input())
+k=0
+if a<b:
+    for i in range(a,b+1):
+        k+=1
+    print(k)
+elif a>b:
+    for i in range(b,a+1):
+        k+=1
+    print(k)
 
 
    
