@@ -1,12 +1,11 @@
-    # while 3 /////////////////////
+    # while 4 /////////////////////
 
 
 
 
 n=int(input())
-i=2
+i=1
 while i<=n:
-   if n%i==0:
-     print(i,end=" ")
-     break
+   if i*i<=n:
+     print(i*i,end=" ")
    i+=1
